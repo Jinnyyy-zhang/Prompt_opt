@@ -4,7 +4,7 @@ from openai import OpenAI
 # 设定API调用
 def call_api(messages, frequency_penalty=0, presence_penalty=0):
     client = OpenAI(
-        api_key='sk-5d2d303c83bf46949ca6e003b3a57072',  
+        api_key='',  
         base_url="https://api.deepseek.com"
     )
     
